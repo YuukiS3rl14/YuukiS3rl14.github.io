@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="es-CL">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1220">
+  <meta name="description" content="Portafolio y currículum digital de Manuel Alejandro Valenzuela Faúndez. Formación en Ingeniería en Informática, malla académica completada y enfoque en desarrollo Full Stack.">
+  <meta name="author" content="Manuel Alejandro Valenzuela Faúndez">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Manuel Valenzuela | Portafolio y currículum">
+  <meta property="og:description" content="Conoce mi formación, experiencia, habilidades y canales profesionales en un solo lugar.">
+  <title>Manuel Valenzuela — Portafolio & CV</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="config.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <div class="page-progress" id="pageProgress" aria-hidden="true"></div>
+  <div class="site-orb site-orb--one" aria-hidden="true"></div>
+  <div class="site-orb site-orb--two" aria-hidden="true"></div>
+
+  <svg xmlns="http://www.w3.org/2000/svg" class="icon-defs" aria-hidden="true" focusable="false">
+    <symbol id="i-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-arrow-up-right" viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M5 17v3h14v-3"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m4 7 8 6 8-6"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2A19.7 19.7 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7l.5 3a2 2 0 0 1-.6 1.8L7.1 10a16 16 0 0 0 6.9 6.9l1.5-1.9a2 2 0 0 1 1.8-.6l3 .5a2 2 0 0 1 1.7 2Z"/></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10v7m0-10v.01M12 17v-7m0 3a3 3 0 0 1 6 0v4"/></symbol>
+    <symbol id="i-github" viewBox="0 0 24 24"><path d="M9 19c-4.3 1.3-4.3-2.5-6-3m12 6v-3.5a3 3 0 0 0-.8-2.3C17.8 15.9 20 14.5 20 10a5.5 5.5 0 0 0-1.5-3.8 5 5 0 0 0-.1-3.7s-1.5-.5-4 1.5a14 14 0 0 0-5 0c-2.5-2-4-1.5-4-1.5a5 5 0 0 0-.1 3.7A5.5 5.5 0 0 0 3.8 10c0 4.5 2.2 5.9 5.8 6.2a3 3 0 0 0-.8 2.3V22"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m5 5 14 14M19 5 5 19"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20 15.1A8.5 8.5 0 0 1 8.9 4 8.5 8.5 0 1 0 20 15.1Z"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+    <symbol id="i-map-pin" viewBox="0 0 24 24"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.6"/></symbol>
+    <symbol id="i-chev" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+    <symbol id="i-briefcase" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="14" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M3 12a23 23 0 0 0 18 0"/></symbol>
+    <symbol id="i-graduation" viewBox="0 0 24 24"><path d="m2 9 10-5 10 5-10 5L2 9Zm4 3v5c3 3 9 3 12 0v-5M22 9v7"/></symbol>
+    <symbol id="i-code" viewBox="0 0 24 24"><path d="m8 8-4 4 4 4m8-8 4 4-4 4m-3-11-4 14"/></symbol>
+    <symbol id="i-sparkles" viewBox="0 0 24 24"><path d="m12 3 1.9 6.1L20 11l-6.1 1.9L12 19l-1.9-6.1L4 11l6.1-1.9L12 3Zm7 14 .6 1.4L21 19l-1.4.6L19 21l-.6-1.4L17 19l1.4-.6L19 17Z"/></symbol>
+    <symbol id="i-arrow-up" viewBox="0 0 24 24"><path d="M12 20V4m-6 6 6-6 6 6"/></symbol>
+    <symbol id="i-external" viewBox="0 0 24 24"><path d="M13 5h6v6M19 5l-9 9M19 13v5a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h5"/></symbol>
+    <symbol id="i-layers" viewBox="0 0 24 24"><path d="m12 3 9 5-9 5-9-5 9-5Zm-9 9 9 5 9-5M3 16l9 5 9-5"/></symbol>
+  </svg>
+
+  <header class="site-header" id="top">
+    <div class="nav-shell container">
+      <a class="brand" href="#inicio" aria-label="Manuel Valenzuela, volver al inicio">
+        <span class="brand-symbol">mv<span class="brand-dot">.</span></span>
+        <span class="brand-label">Manuel<br>Valenzuela</span>
+      </a>
+      <nav class="desktop-nav" aria-label="Navegación principal">
+        <a class="nav-link active" href="#inicio">Inicio</a>
+        <a class="nav-link" href="#sobre-mi">Sobre mí</a>
+        <a class="nav-link" href="#trayectoria">Trayectoria</a>
+        <a class="nav-link" href="#malla">Malla</a>
+        <a class="nav-link" href="#habilidades">Habilidades</a>
+        <a class="nav-link" href="#proyectos">Proyectos</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-button theme-button" id="themeToggle" type="button" aria-label="Cambiar tema" title="Cambiar entre modo claro y oscuro">
+          <svg class="icon theme-icon-sun"><use href="#i-sun"/></svg>
+          <svg class="icon theme-icon-moon"><use href="#i-moon"/></svg>
+        </button>
+        <a class="nav-contact" href="#contacto">Hablemos <svg class="icon"><use href="#i-arrow-up-right"/></svg></a>
+        <button class="icon-button mobile-toggle" id="menuToggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobileNav">
+          <svg class="icon icon-menu"><use href="#i-menu"/></svg>
+          <svg class="icon icon-close"><use href="#i-close"/></svg>
+        </button>
+      </div>
+    </div>
+    <nav class="mobile-nav" id="mobileNav" aria-label="Navegación móvil" inert>
+      <a href="#inicio">Inicio</a>
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#trayectoria">Trayectoria</a>
+      <a href="#malla">Malla académica</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <section class="hero section-shell" id="inicio" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="eyebrow-pill"><span class="eyebrow-dot"></span> MI ESPACIO PROFESIONAL EN LA WEB</div>
+          <p class="hero-pretitle">Hola, soy Manuel <span class="wave-hand" aria-hidden="true">✳</span></p>
+          <h1 id="hero-title">Ideas claras<span class="accent-punct">.</span><br>Trabajo con<br><span class="headline-accent">propósito.</span></h1>
+          <p class="hero-description">Soy <strong>Manuel Alejandro Valenzuela Faúndez</strong> y he completado la malla de Ingeniería en Informática de INACAP. Mi formación abarca desarrollo Full Stack, datos e inteligencia artificial, con una mirada práctica y atención al detalle.</p>
+          <div class="hero-cta">
+            <a class="button button-primary" href="#sobre-mi">Conoce mi perfil <svg class="icon"><use href="#i-arrow-right"/></svg></a>
+            <a class="button button-outline" href="assets/CV_Manuel_Valenzuela.pdf" download="CV_Manuel_Valenzuela.pdf">Descargar CV <svg class="icon"><use href="#i-download"/></svg></a>
+          </div>
+          <div class="hero-bottomline">
+            <span><svg class="icon"><use href="#i-map-pin"/></svg> Puente Alto, Chile</span>
+            <span class="divider-dot" aria-hidden="true"></span>
+            <span><span class="online-dot"></span> Abierto a conectar</span>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Tarjeta visual: Manuel Valenzuela, Ingeniería en Informática, desarrollo Full Stack">
+          <div class="art-background-grid" aria-hidden="true"></div>
+          <div class="art-orbit art-orbit--outer" aria-hidden="true"></div>
+          <div class="art-orbit art-orbit--inner" aria-hidden="true"></div>
+          <div class="art-halo" aria-hidden="true"></div>
+          <div class="art-center" aria-hidden="true"><span>M<span class="art-separator">/</span>V</span><small>CRECER · CREAR · APRENDER</small></div>
+          <div class="floating-card floating-card--top">
+            <span class="floating-icon"><svg class="icon"><use href="#i-code"/></svg></span>
+            <span><small>ENFOQUE ACADÉMICO</small><strong>Desarrollo Full Stack</strong></span>
+          </div>
+          <div class="floating-card floating-card--bottom">
+            <span class="floating-icon floating-icon--green"><svg class="icon"><use href="#i-graduation"/></svg></span>
+            <span><small>FORMACIÓN</small><strong>Ingeniería en Informática</strong><em>INACAP</em></span>
+          </div>
+          <div class="art-edge-label art-edge-label--top">01 / 06</div>
+          <div class="art-edge-label art-edge-label--bottom">PORTAFOLIO DIGITAL · 2026</div>
+        </div>
+      </div>
+      <div class="container hero-footnote"><span>DESLIZA PARA EXPLORAR</span><span class="scroll-line" aria-hidden="true"></span><span class="hero-footnote-right">CV + PORTAFOLIO EN UN SOLO LUGAR</span></div>
+    </section>
+
+    <section class="content-section about-section" id="sobre-mi" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="section-intro reveal">
+          <p class="kicker"><span class="kicker-line"></span> 01 — CONOCE MI PERFIL</p>
+          <h2 id="about-heading">Un poco más <span class="text-gradient">sobre mí.</span></h2>
+          <p>No se trata solo de lo que sé hacer, sino también de cómo enfrento cada desafío.</p>
+        </div>
+        <div class="about-grid">
+          <article class="glass-card about-main reveal">
+            <span class="card-tiny-label">MI PRESENTACIÓN</span>
+            <h3>Curiosidad por la tecnología.<br><span>Compromiso con cada detalle.</span></h3>
+            <p>He cursado y aprobado la malla de Ingeniería en Informática en INACAP. Mi preparación abarca desarrollo de software, datos, inteligencia artificial, infraestructura y gestión de proyectos. Me interesa seguir fortaleciendo mis conocimientos y aplicar lo aprendido en proyectos con impacto real.</p>
+            <p>Mi experiencia en logística me permitió desarrollar hábitos de organización, responsabilidad y atención al detalle que también llevo a mi formación tecnológica.</p>
+            <div class="signature-row"><span class="signature-symbol">mv.</span><span>Aprender, mejorar y aportar.</span></div>
+          </article>
+          <div class="about-side">
+            <article class="glass-card attribute-card reveal">
+              <div class="tile-icon"><svg class="icon"><use href="#i-sparkles"/></svg></div>
+              <p class="card-tiny-label">LO QUE ME DEFINE</p>
+              <h3>Compromiso, análisis y confianza.</h3>
+              <div class="tag-cloud"><span>Responsabilidad</span><span>Atención al detalle</span><span>Planificación</span><span>Honestidad</span><span>Confiabilidad</span><span>Análisis</span></div>
+            </article>
+            <article class="glass-card languages-card reveal">
+              <div class="language-row"><span>Español</span><span class="language-value">Nativo</span></div>
+              <div class="language-separator"></div>
+              <div class="language-row"><span>Inglés</span><span class="language-value">Básico</span></div>
+              <p>Idiomas</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section experience-section" id="trayectoria" aria-labelledby="trajectory-heading">
+      <div class="container">
+        <div class="section-intro reveal">
+          <p class="kicker"><span class="kicker-line"></span> 02 — MI RECORRIDO</p>
+          <h2 id="trajectory-heading">Experiencia que <span class="text-gradient">construye.</span></h2>
+          <p>Cada etapa aporta herramientas para el siguiente desafío.</p>
+        </div>
+        <div class="timeline-grid">
+          <article class="timeline-card glass-card reveal">
+            <div class="timeline-card-head"><span class="timeline-icon"><svg class="icon"><use href="#i-briefcase"/></svg></span><span class="date-pill">ABR 2022 — FEB 2023</span></div>
+            <p class="card-tiny-label">EXPERIENCIA LABORAL</p>
+            <h3>Bodeguero</h3>
+            <p class="timeline-company">JM Import Ltda.</p>
+            <p class="timeline-brief">Gestión de pedidos, organización operativa y control de inventarios en un entorno logístico.</p>
+            <div class="accordion" data-accordion>
+              <button class="accordion-trigger" type="button" aria-expanded="false" aria-controls="expResponsibilities">Ver responsabilidades <svg class="icon"><use href="#i-chev"/></svg></button>
+              <div class="accordion-panel" id="expResponsibilities" hidden>
+                <ul class="clean-list"><li>Preparación y verificación de pedidos con órdenes de compra.</li><li>Empaque y organización del área de trabajo.</li><li>Inventarios periódicos y apoyo en descarga de contenedores.</li><li>Participación en procesos de fabricación de globos terráqueos.</li></ul>
+              </div>
+            </div>
+          </article>
+          <article class="timeline-card glass-card reveal">
+            <div class="timeline-card-head"><span class="timeline-icon timeline-icon--violet"><svg class="icon"><use href="#i-graduation"/></svg></span><span class="date-pill">DESDE 2023 · MALLA COMPLETADA</span></div>
+            <p class="card-tiny-label">FORMACIÓN ACADÉMICA</p>
+            <h3>Ingeniería en Informática</h3>
+            <p class="timeline-company">INACAP · Puente Alto</p>
+            <p class="timeline-brief">Ocho semestres y 47 asignaturas cursadas y aprobadas, con formación en desarrollo de software, datos, nube, seguridad, IA y gestión de proyectos.</p>
+            <div class="timeline-details"><span class="detail-dot"></span> <span>Malla de asignaturas completada</span></div>
+          </article>
+        </div>
+        <p class="timeline-note">La malla académica completada se distingue de la obtención formal del título profesional.</p>
+      </div>
+    </section>
+
+    <section class="content-section education-section" id="formacion" aria-labelledby="education-heading">
+      <div class="container">
+        <div class="section-intro section-intro--split reveal">
+          <div><p class="kicker"><span class="kicker-line"></span> 03 — APRENDIZAJE CONTINUO</p><h2 id="education-heading">Formación que <span class="text-gradient">abre posibilidades.</span></h2></div>
+          <p>Experiencias académicas que complementan mi base técnica con innovación y trabajo aplicado.</p>
+        </div>
+        <div class="learning-grid">
+          <article class="learning-card glass-card reveal"><span class="learning-number">01</span><span class="learning-year">2025</span><div class="learning-icon"><svg class="icon"><use href="#i-code"/></svg></div><h3>Desarrollo Full Stack</h3><p>Especialización o enfoque formativo consignado en los antecedentes de INACAP.</p><span class="learning-category">TECNOLOGÍA</span></article>
+          <article class="learning-card glass-card reveal"><span class="learning-number">02</span><span class="learning-year">2025</span><div class="learning-icon"><svg class="icon"><use href="#i-sparkles"/></svg></div><h3>Innovación y Emprendimiento</h3><p>Competencias basales de innovación y emprendimiento, en el contexto de programas de INACAP.</p><span class="learning-category">INNOVACIÓN</span></article>
+          <article class="learning-card glass-card reveal"><span class="learning-number">03</span><span class="learning-year">2025</span><div class="learning-icon"><svg class="icon"><use href="#i-layers"/></svg></div><h3>Estrategia curricular API tipo II</h3><p>Enfoque de aprendizaje práctico orientado a experiencias relevantes basadas en el trabajo.</p><span class="learning-category">APRENDIZAJE APLICADO</span></article>
+        </div>
+        <div class="education-strip reveal"><div><svg class="icon"><use href="#i-graduation"/></svg><span>Educación media — Complejo Educacional Consolidada, Puente Alto</span></div><strong>2018 — 2021</strong></div>
+      </div>
+    </section>
+
+    <section class="content-section curriculum-section" id="malla" aria-labelledby="curriculum-heading">
+      <div class="container">
+        <div class="section-intro section-intro--split reveal">
+          <div><p class="kicker"><span class="kicker-line"></span> 04 — RECORRIDO ACADÉMICO</p><h2 id="curriculum-heading">Mi malla, <span class="text-gradient">de principio a fin.</span></h2></div>
+          <p>Un resumen de mi recorrido por Ingeniería en Informática en INACAP. Selecciona un semestre para conocer sus asignaturas.</p>
+        </div>
+        <div class="curriculum-stats reveal" aria-label="Resumen de la malla">
+          <div><strong>08</strong><small>semestres</small></div>
+          <div><strong>47</strong><small>asignaturas</small></div>
+          <div><strong><svg class="icon"><use href="#i-check"/></svg></strong><small>Malla cursada y aprobada</small></div>
+        </div>
+        <div class="curriculum-toolbar"><p>Explora los ocho semestres</p><button id="curriculumToggle" class="curriculum-toggle" type="button" aria-expanded="false">Expandir todos <svg class="icon"><use href="#i-chev"/></svg></button></div>
+        <div class="semester-grid reveal">            <details class="semester-card">
+              <summary><span class="semester-no">01</span><span class="semester-title"><strong>1° semestre</strong><small>5 asignaturas</small></span><span class="semester-expand"><svg class="icon"><use href="#i-chev"/></svg></span></summary>
+              <ul class="semester-courses"><li>Formación Ciudadana</li><li>Resolución de Problemas en Álgebra</li><li>Fundamentos de Base de Datos</li><li>Introducción a la Programación</li><li>Fundamentos de Hardware y Software</li></ul>
+            </details>
+            <details class="semester-card">
+              <summary><span class="semester-no">02</span><span class="semester-title"><strong>2° semestre</strong><small>6 asignaturas</small></span><span class="semester-expand"><svg class="icon"><use href="#i-chev"/></svg></span></summary>
+              <ul class="semester-courses"><li>Administración</li><li>Funciones y Matrices</li><li>Programación Orientada a Objetos</li><li>Bases de Datos Relacionales</li><li>Desarrollo Ágil</li><li>Sistemas Operativos</li></ul>
+            </details>
+            <details class="semester-card">
+              <summary><span class="semester-no">03</span><span class="semester-title"><strong>3° semestre</strong><small>6 asignaturas</small></span><span class="semester-expand"><svg class="icon"><use href="#i-chev"/></svg></span></summary>
+              <ul class="semester-courses"><li>Inglés I</li><li>Programación Front End</li><li>Bases de Datos No Estructuradas</li><li>Diseño de Sistemas</li><li>Electivo de Tendencias del Sector Productivo y de Servicios I</li><li>Taller de Desarrollo de Aplicaciones</li></ul>
+            </details>
+            <details class="semester-card">
+              <summary><span class="semester-no">04</span><span class="semester-title"><strong>4° semestre</strong><small>6 asignaturas</small></span><span class="semester-expand"><svg class="icon"><use href="#i-chev"/></svg></span></summary>
+              <ul class="semester-courses"><li>Innovación y Emprendimiento I</li><li>Programación Back End</li><li>Aplicaciones Móviles para IoT</li><li>Ingeniería de Software</li><li>Electivo de Tendencias del Sector Productivo y de Servicios II</li><li>Taller de Diseño y Desarrollo de Soluciones</li></ul>
+            </details>
+            <details class="semester-card">
+              <summary><span class="semester-no">05</span><span class="semester-title"><strong>5° semestre</strong><small>6 asignaturas</small></span><span class="semester-expand"><svg class="icon"><use href="#i-chev"/></svg></span></summary>
+              <ul class="semester-courses"><li>Cálculo Diferencial</li><li>Estadística</li><li>Innovación y Emprendimiento II</li><li>Arquitectura y Almacenamiento de Datos</li><li>Redes de Datos</li><li>Tecnología Cloud</li></ul>
+            </details>
+            <details class="semester-card">
+              <summary><span class="semester-no">06</span><span class="semester-title"><strong>6° semestre</strong><small>6 asignaturas</small></span><span class="semester-expand"><svg class="icon"><use href="#i-chev"/></svg></span></summary>
+              <ul class="semester-courses"><li>Finanzas</li><li>Probabilidad</li><li>Inglés II</li><li>Minería de Datos</li><li>Seguridad de la Información</li><li>Proyecto de Integración</li></ul>
+            </details>
+            <details class="semester-card">
+              <summary><span class="semester-no">07</span><span class="semester-title"><strong>7° semestre</strong><small>6 asignaturas</small></span><span class="semester-expand"><svg class="icon"><use href="#i-chev"/></svg></span></summary>
+              <ul class="semester-courses"><li>Evaluación de Proyectos</li><li>Inglés III</li><li>Inteligencia de Negocios</li><li>Gestión de Proyectos</li><li>Electivo de Tendencias del Sector Productivo y de Servicios III</li><li>Electivo de Tendencias del Sector Productivo y de Servicios IV</li></ul>
+            </details>
+            <details class="semester-card">
+              <summary><span class="semester-no">08</span><span class="semester-title"><strong>8° semestre</strong><small>6 asignaturas</small></span><span class="semester-expand"><svg class="icon"><use href="#i-chev"/></svg></span></summary>
+              <ul class="semester-courses"><li>Innovación y Emprendimiento III</li><li>Big Data</li><li>Aplicaciones de Inteligencia Artificial</li><li>Electivo de Tendencias del Sector Productivo y de Servicios V</li><li>Electivo de Tendencias del Sector Productivo y de Servicios VI</li><li>Proyecto de Título</li></ul>
+            </details>
+        </div>
+        <p class="curriculum-footnote">Formación desarrollada a través de programación, datos, inteligencia artificial, infraestructura, proyectos e innovación. Cada semestre aporta una base para construir soluciones tecnológicas.</p>
+      </div>
+    </section>
+
+    <section class="content-section skills-section" id="habilidades" aria-labelledby="skills-heading">
+      <div class="container">
+        <div class="section-intro reveal"><p class="kicker"><span class="kicker-line"></span> 05 — COMPETENCIAS</p><h2 id="skills-heading">Conocimientos con <span class="text-gradient">base académica.</span></h2><p>Áreas trabajadas durante la carrera y herramientas que utilizo. Las asignaturas aprobadas describen formación, no experiencia laboral ni dominio avanzado.</p></div>
+        <div class="skills-wrap glass-card reveal">
+          <div class="skills-header"><span>EXPLORA MIS COMPETENCIAS</span><span>06 CATEGORÍAS</span></div>
+          <div class="tabs" role="tablist" aria-label="Categorías de habilidades">
+            <button id="tab-desarrollo" class="tab active" role="tab" type="button" aria-controls="panel-desarrollo" aria-selected="true" tabindex="0" data-tab="desarrollo"><svg class="icon"><use href="#i-code"/></svg> Desarrollo</button>
+            <button id="tab-datos" class="tab" role="tab" type="button" aria-controls="panel-datos" aria-selected="false" tabindex="-1" data-tab="datos"><svg class="icon"><use href="#i-layers"/></svg> Datos e IA</button>
+            <button id="tab-infra" class="tab" role="tab" type="button" aria-controls="panel-infra" aria-selected="false" tabindex="-1" data-tab="infra"><svg class="icon"><use href="#i-layers"/></svg> Infraestructura</button>
+            <button id="tab-gestion" class="tab" role="tab" type="button" aria-controls="panel-gestion" aria-selected="false" tabindex="-1" data-tab="gestion"><svg class="icon"><use href="#i-briefcase"/></svg> Gestión</button>
+            <button id="tab-herramientas" class="tab" role="tab" type="button" aria-controls="panel-herramientas" aria-selected="false" tabindex="-1" data-tab="herramientas"><svg class="icon"><use href="#i-code"/></svg> Herramientas</button>
+            <button id="tab-fortalezas" class="tab" role="tab" type="button" aria-controls="panel-fortalezas" aria-selected="false" tabindex="-1" data-tab="fortalezas"><svg class="icon"><use href="#i-sparkles"/></svg> Fortalezas</button>
+          </div>
+          <div class="tab-panel" role="tabpanel" id="panel-desarrollo" aria-labelledby="tab-desarrollo" tabindex="0">
+            <div class="skills-grid"><div class="skill-tile"><div class="skill-glyph">&lt;/&gt;</div><div><strong>Programación Front End</strong><span>Formación académica</span></div></div><div class="skill-tile"><div class="skill-glyph">{ }</div><div><strong>Programación Back End</strong><span>Formación académica</span></div></div><div class="skill-tile"><div class="skill-glyph">POO</div><div><strong>Orientación a objetos</strong><span>Fundamentos y prácticas</span></div></div><div class="skill-tile"><div class="skill-glyph">SW</div><div><strong>Ingeniería de Software</strong><span>Diseño y ciclo de vida</span></div></div><div class="skill-tile"><div class="skill-glyph">UX</div><div><strong>Diseño de sistemas</strong><span>Diseño de soluciones</span></div></div><div class="skill-tile"><div class="skill-glyph">IoT</div><div><strong>Aplicaciones móviles e IoT</strong><span>Formación académica</span></div></div><div class="skill-tile"><div class="skill-glyph">DB</div><div><strong>Integración de aplicaciones</strong><span>Talleres y proyectos</span></div></div><div class="skill-tile"><div class="skill-glyph">AG</div><div><strong>Desarrollo ágil</strong><span>Metodologías de trabajo</span></div></div>
+            </div>
+          </div>
+          <div class="tab-panel" role="tabpanel" id="panel-datos" aria-labelledby="tab-datos" tabindex="0" hidden>
+            <div class="skills-grid"><div class="skill-tile"><div class="skill-glyph">SQL</div><div><strong>Bases de datos relacionales</strong><span>Modelado y consultas</span></div></div><div class="skill-tile"><div class="skill-glyph">NoSQL</div><div><strong>Datos no estructurados</strong><span>Formación académica</span></div></div><div class="skill-tile"><div class="skill-glyph">BI</div><div><strong>Inteligencia de negocios</strong><span>Análisis para decisiones</span></div></div><div class="skill-tile"><div class="skill-glyph">MD</div><div><strong>Minería de datos</strong><span>Exploración y patrones</span></div></div><div class="skill-tile"><div class="skill-glyph">BD</div><div><strong>Big Data</strong><span>Formación académica</span></div></div><div class="skill-tile"><div class="skill-glyph">IA</div><div><strong>Inteligencia artificial</strong><span>Aplicaciones académicas</span></div></div><div class="skill-tile"><div class="skill-glyph">Σ</div><div><strong>Estadística y probabilidad</strong><span>Fundamentos cuantitativos</span></div></div><div class="skill-tile"><div class="skill-glyph">DW</div><div><strong>Arquitectura de datos</strong><span>Almacenamiento y diseño</span></div></div>
+            </div>
+          </div>
+          <div class="tab-panel" role="tabpanel" id="panel-infra" aria-labelledby="tab-infra" tabindex="0" hidden>
+            <div class="skills-grid"><div class="skill-tile"><div class="skill-glyph">☁</div><div><strong>Tecnología Cloud</strong><span>Formación académica</span></div></div><div class="skill-tile"><div class="skill-glyph">Az</div><div><strong>Microsoft Azure</strong><span>Conocimiento básico</span></div></div><div class="skill-tile"><div class="skill-glyph">NET</div><div><strong>Redes de datos</strong><span>Conceptos y arquitectura</span></div></div><div class="skill-tile"><div class="skill-glyph">SEC</div><div><strong>Seguridad de la información</strong><span>Fundamentos académicos</span></div></div><div class="skill-tile"><div class="skill-glyph">OS</div><div><strong>Sistemas operativos</strong><span>Fundamentos técnicos</span></div></div><div class="skill-tile"><div class="skill-glyph">HW</div><div><strong>Hardware y software</strong><span>Fundamentos técnicos</span></div></div>
+            </div>
+          </div>
+          <div class="tab-panel" role="tabpanel" id="panel-gestion" aria-labelledby="tab-gestion" tabindex="0" hidden>
+            <div class="skills-grid"><div class="skill-tile"><div class="skill-glyph">PM</div><div><strong>Gestión de proyectos</strong><span>Planificación y ejecución</span></div></div><div class="skill-tile"><div class="skill-glyph">EV</div><div><strong>Evaluación de proyectos</strong><span>Análisis de viabilidad</span></div></div><div class="skill-tile"><div class="skill-glyph">I+E</div><div><strong>Innovación y emprendimiento</strong><span>Tres asignaturas cursadas</span></div></div><div class="skill-tile"><div class="skill-glyph">IN</div><div><strong>Proyecto de integración</strong><span>Trabajo aplicado</span></div></div><div class="skill-tile"><div class="skill-glyph">FIN</div><div><strong>Administración y finanzas</strong><span>Bases de gestión</span></div></div><div class="skill-tile"><div class="skill-glyph">TT</div><div><strong>Proyecto de título</strong><span>Asignatura de la malla</span></div></div>
+            </div>
+          </div>
+          <div class="tab-panel" role="tabpanel" id="panel-herramientas" aria-labelledby="tab-herramientas" tabindex="0" hidden>
+            <div class="skills-grid"><div class="skill-tile"><div class="skill-glyph">VS</div><div><strong>Visual Studio Code</strong><span>Conocimiento básico</span></div></div><div class="skill-tile"><div class="skill-glyph">git</div><div><strong>GitHub</strong><span>Perfil profesional vinculado</span></div></div><div class="skill-tile"><div class="skill-glyph">X</div><div><strong>Microsoft Excel</strong><span>Conocimiento básico</span></div></div><div class="skill-tile"><div class="skill-glyph">W</div><div><strong>Microsoft Word</strong><span>Conocimiento básico</span></div></div><div class="skill-tile"><div class="skill-glyph">P</div><div><strong>PowerPoint</strong><span>Uso académico</span></div></div><div class="skill-tile"><div class="skill-glyph">C</div><div><strong>Canva</strong><span>Conocimiento básico</span></div></div>
+            </div>
+          </div>
+          <div class="tab-panel" role="tabpanel" id="panel-fortalezas" aria-labelledby="tab-fortalezas" tabindex="0" hidden>
+            <div class="skills-grid"><div class="skill-tile"><div class="skill-glyph">✓</div><div><strong>Atención al detalle</strong><span>Precisión y calidad</span></div></div><div class="skill-tile"><div class="skill-glyph">✓</div><div><strong>Organización</strong><span>Planificación y orden</span></div></div><div class="skill-tile"><div class="skill-glyph">✓</div><div><strong>Capacidad analítica</strong><span>Resolución de problemas</span></div></div><div class="skill-tile"><div class="skill-glyph">✓</div><div><strong>Compromiso</strong><span>Responsabilidad y confianza</span></div></div><div class="skill-tile"><div class="skill-glyph">✓</div><div><strong>Trabajo aplicado</strong><span>Proyectos académicos</span></div></div><div class="skill-tile"><div class="skill-glyph">✓</div><div><strong>Aprendizaje continuo</strong><span>Actualización profesional</span></div></div>
+            </div>
+          </div>
+          <div class="skills-footer"><svg class="icon"><use href="#i-sparkles"/></svg><p>Mi formación combina programación, datos, infraestructura, gestión e innovación, junto con compromiso, responsabilidad y atención al detalle.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section projects-section" id="proyectos" aria-labelledby="projects-heading">
+      <div class="container">
+        <div class="section-intro section-intro--split reveal"><div><p class="kicker"><span class="kicker-line"></span> 06 — PROYECTOS Y CÓDIGO</p><h2 id="projects-heading">Un espacio para <span class="text-gradient">crear y compartir.</span></h2></div><p>Mi portafolio es un punto de encuentro con el código, los proyectos académicos y los repositorios que comparta en GitHub.</p></div>
+        <div class="projects-grid">
+          <article class="project-feature glass-card reveal">
+            <div class="project-visual"><span class="project-window"><i></i><i></i><i></i></span><div class="project-code"><span>&lt;<em>portfolio</em>&gt;</span><span class="project-code-indent">Hola, soy <strong>Manuel.</strong></span><span>&lt;/<em>portfolio</em>&gt;</span></div><span class="project-caption">MI ESPACIO EN LA WEB</span></div>
+            <div class="project-content"><span class="card-tiny-label">PUNTO DE PARTIDA</span><h3>Mi identidad profesional, en un solo lugar.</h3><p>Este portafolio reúne mi perfil, formación y experiencia. Está pensado para evolucionar con nuevos proyectos y conexiones profesionales.</p><div class="project-tags"><span>Portafolio digital</span><span>CV online</span></div></div>
+          </article>
+          <article class="project-future glass-card reveal">
+            <div class="future-pattern" aria-hidden="true"><span>+</span><span>+</span><span>+</span><span>+</span><span>+</span><span>+</span></div>
+            <span class="project-future-icon"><svg class="icon"><use href="#i-github"/></svg></span>
+            <p class="card-tiny-label">CÓDIGO Y REPOSITORIOS</p>
+            <h3>Conoce mi GitHub.</h3>
+            <p>GitHub es el espacio donde puedo compartir y documentar mis desarrollos. Explora mi perfil o consulta el repositorio de esta página.</p>
+            <div class="github-project-actions">
+              <a class="github-project-link" href="https://github.com/YuukiS3rl14" target="_blank" rel="noopener noreferrer" data-link="github">Visitar mi GitHub <svg class="icon"><use href="#i-arrow-up-right"/></svg></a>
+              <a class="github-repo-link" href="https://github.com/YuukiS3rl14/YuukiS3rl14.github.io" target="_blank" rel="noopener noreferrer" data-link="github-repo">Repositorio de este sitio <svg class="icon"><use href="#i-external"/></svg></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section contact-section" id="contacto" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="contact-panel reveal">
+          <div class="contact-panel-glow" aria-hidden="true"></div>
+          <div class="contact-intro"><p class="kicker"><span class="kicker-line"></span> 07 — CONECTEMOS</p><h2 id="contact-heading">Una conversación puede <span class="text-gradient">abrir grandes ideas.</span></h2><p>¿Quieres conocer más sobre mi perfil o ponerte en contacto? Aquí encontrarás mis canales principales, en un solo lugar.</p><a class="button button-primary" href="mailto:yxds3rl14@gmail.com" data-link="email">Escríbeme un correo <svg class="icon"><use href="#i-arrow-up-right"/></svg></a></div>
+          <div class="contact-links" aria-label="Canales de contacto">
+            <a class="contact-link" href="https://www.linkedin.com/in/manuel-alejandro-valenzuela-faundez-617617358" target="_blank" rel="noopener noreferrer" data-link="linkedin"><span class="contact-icon"><svg class="icon"><use href="#i-linkedin"/></svg></span><span class="contact-link-text"><strong>LinkedIn</strong><small>Mi perfil profesional</small></span><svg class="icon action-icon"><use href="#i-arrow-up-right"/></svg></a>
+            <div class="contact-link email-contact"><span class="contact-icon"><svg class="icon"><use href="#i-mail"/></svg></span><span class="contact-link-text"><strong>Correo electrónico</strong><small id="contactEmail">yxds3rl14@gmail.com</small></span><button class="copy-button" id="copyEmail" type="button" aria-label="Copiar dirección de correo" title="Copiar correo"><svg class="icon"><use href="#i-copy"/></svg></button></div>
+            <a class="contact-link" href="tel:+56983781994" data-link="phone"><span class="contact-icon"><svg class="icon"><use href="#i-phone"/></svg></span><span class="contact-link-text"><strong>Teléfono</strong><small id="contactPhone">+56 9 8378 1994</small></span><svg class="icon action-icon"><use href="#i-arrow-up-right"/></svg></a>
+            <a class="contact-link" id="githubContact" href="https://github.com/YuukiS3rl14" target="_blank" rel="noopener noreferrer" data-link="github"><span class="contact-icon"><svg class="icon"><use href="#i-github"/></svg></span><span class="contact-link-text"><strong>GitHub</strong><small id="githubContactStatus">@YuukiS3rl14 · Ver repositorios</small></span><svg class="icon action-icon"><use href="#i-arrow-up-right"/></svg></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><a class="footer-brand" href="#inicio">mv<span>.</span></a><p>© <span id="currentYear">2026</span> Manuel Alejandro Valenzuela Faúndez. Hecho para conectar.</p><div class="footer-right"><a href="https://github.com/YuukiS3rl14" target="_blank" rel="noopener noreferrer" data-link="github" aria-label="Visitar GitHub"><svg class="icon"><use href="#i-github"/></svg></a><a href="https://www.linkedin.com/in/manuel-alejandro-valenzuela-faundez-617617358" target="_blank" rel="noopener noreferrer" data-link="linkedin" aria-label="Visitar LinkedIn"><svg class="icon"><use href="#i-linkedin"/></svg></a><a href="mailto:yxds3rl14@gmail.com" data-link="email" aria-label="Enviar correo"><svg class="icon"><use href="#i-mail"/></svg></a><a href="#inicio" aria-label="Volver arriba"><svg class="icon"><use href="#i-arrow-up"/></svg></a></div></div></footer>
+  <button class="back-to-top" id="backToTop" type="button" title="Volver arriba" aria-label="Volver al inicio"><svg class="icon"><use href="#i-arrow-up"/></svg></button>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
